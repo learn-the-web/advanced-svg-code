@@ -1,0 +1,26 @@
+svg {
+  fill: currentColor;
+}
+
+.icon-link {
+  display: inline-block;
+  text-decoration: none;
+  color: indigo;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all 200ms linear;
+}
+
+.icon-link:hover {
+  color: limegreen;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.icon-link span {
+  vertical-align: middle;
+}

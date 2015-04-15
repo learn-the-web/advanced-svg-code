@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Textures on Text</title>
+</head>
+<body>
+
+<svg width="500" height="200" viewBox="0 0 500 200">
+	<style>
+		text {
+			font-size: 200px;
+			font-weight: bold;
+			fill: url(#texture);
+		}
+	</style>
+	<defs>
+		<pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
+			<image xlink:href="images/mars.jpg" width="800" height="500" />
+		</pattern>
+	</defs>
+	<text x="0" y="180">Mars</text>
+</svg>
+
+</body>
+</html>

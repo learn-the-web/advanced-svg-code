@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 340" enable-background="new 0 0 280 340">
+  <style type="text/css">
+    .st0{fill:#479A00;} .st1{fill:#9E54FF;} .st2{fill:#F1EB00;}
+  </style>
+  <path id="stem" d="M130.8 159h18.4v181h-18.4z" class="st0"/>
+  <g id="petals">
+    <ellipse cx="140" cy="58.9" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="140" cy="215.9" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="84.5" cy="81.9" transform="matrix(.707 -.707 .707 .707 -33.171 83.735)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="195.5" cy="192.9" transform="matrix(.707 -.707 .707 .707 -79.155 194.751)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="61.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
+    <ellipse cx="218.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
+    <ellipse cx="84.5" cy="192.9" transform="matrix(-.707 -.707 .707 -.707 7.819 389.087)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="195.5" cy="81.9" transform="matrix(-.707 -.707 .707 -.707 275.835 278.071)" class="st1" rx="21.7" ry="51.4"/>
+  </g>
+  <circle id="centre" cx="140" cy="137.8" r="36.4" class="st2"/>
+</svg>
