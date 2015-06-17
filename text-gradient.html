@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>SVG text gradient</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+</head>
+<body>
+
+	<svg width="500" height="200" viewBox="0 0 500 200">
+		<style>
+			text {
+				font-size: 5rem;
+				font-weight: bold;
+				font-family: Roboto;
+				fill: url(#text-fill);
+			}
+		</style>
+		<defs>
+			<linearGradient id="text-fill">
+				<stop offset="0%" stop-color="orange" />
+				<stop offset="100%" stop-color="red" />
+			</linearGradient>
+		</defs>
+		<text x="0" y="180">Mars</text>
+	</svg>
+
+</body>
+</html>
