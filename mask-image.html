@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-	<meta charset="utf-8">
-	<title>Masking an Image</title>
-	<link href="css/mask-image.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Masking an Image</title>
+  <link href="css/mask-image.css" rel="stylesheet">
 </head>
 <body>
 
 <svg width="800" height="500" viewBox="0 0 800 500">
-	<defs>
-		<mask id="mask">
-			<image width="800" height="500" xlink:href="images/mars-mask.png" />
-		</mask>
-	</defs>
-	<image mask="url(#mask)" width="800" height="500" xlink:href="images/mars.jpg" />
+  <defs>
+    <mask id="mask">
+      <image width="800" height="500" xlink:href="images/mars-mask.png" />
+    </mask>
+  </defs>
+  <image mask="url(#mask)" width="800" height="500" xlink:href="images/mars.jpg" />
 </svg>
 
 </body>

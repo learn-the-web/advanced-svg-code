@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-	<meta charset="utf-8">
-	<title>SVG accessibility</title>
+  <meta charset="utf-8">
+  <title>SVG accessibility</title>
 </head>
 <body>
 
 <svg width="280" height="340" viewBox="0 0 280 340">
-	<title>Bright summer flower</title>
-	<desc>A large, purple petaled flower with a bright yellow centre.</desc>
+  <title>Bright summer flower</title>
+  <desc>A large, purple petaled flower with a bright yellow centre.</desc>
 
-	<style type="text/css">
-		.st0{fill:#479A00;} .st1{fill:#9E54FF;} .st2{fill:#F1EB00;}
-	</style>
-	<path id="stem" d="M130.8 159h18.4v181h-18.4z" class="st0"/>
-	<g id="petals">
-		<ellipse cx="140" cy="58.9" class="st1" rx="21.7" ry="51.4"/>
-		<ellipse cx="140" cy="215.9" class="st1" rx="21.7" ry="51.4"/>
-		<ellipse cx="84.5" cy="81.9" transform="matrix(.707 -.707 .707 .707 -33.171 83.735)" class="st1" rx="21.7" ry="51.4"/>
-		<ellipse cx="195.5" cy="192.9" transform="matrix(.707 -.707 .707 .707 -79.155 194.751)" class="st1" rx="21.7" ry="51.4"/>
-		<ellipse cx="61.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
-		<ellipse cx="218.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
-		<ellipse cx="84.5" cy="192.9" transform="matrix(-.707 -.707 .707 -.707 7.819 389.087)" class="st1" rx="21.7" ry="51.4"/>
-		<ellipse cx="195.5" cy="81.9" transform="matrix(-.707 -.707 .707 -.707 275.835 278.071)" class="st1" rx="21.7" ry="51.4"/>
-	</g>
-	<circle id="centre" cx="140" cy="137.8" r="36.4" class="st2"/>
+  <style type="text/css">
+    .st0{fill:#479A00;} .st1{fill:#9E54FF;} .st2{fill:#F1EB00;}
+  </style>
+  <path id="stem" d="M130.8 159h18.4v181h-18.4z" class="st0"/>
+  <g id="petals">
+    <ellipse cx="140" cy="58.9" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="140" cy="215.9" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="84.5" cy="81.9" transform="matrix(.707 -.707 .707 .707 -33.171 83.735)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="195.5" cy="192.9" transform="matrix(.707 -.707 .707 .707 -79.155 194.751)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="61.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
+    <ellipse cx="218.5" cy="137.4" class="st1" rx="51.4" ry="21.7"/>
+    <ellipse cx="84.5" cy="192.9" transform="matrix(-.707 -.707 .707 -.707 7.819 389.087)" class="st1" rx="21.7" ry="51.4"/>
+    <ellipse cx="195.5" cy="81.9" transform="matrix(-.707 -.707 .707 -.707 275.835 278.071)" class="st1" rx="21.7" ry="51.4"/>
+  </g>
+  <circle id="centre" cx="140" cy="137.8" r="36.4" class="st2"/>
 </svg>
 
 <svg width="500" height="200" viewBox="0 0 500 200" aria-hidden="true">
-	<style>
-		text {
-			font-size: 120px;
-			font-weight: bold;
-			mask: url(#mask);
-		}
-	</style>
-	<defs>
-		<mask id="mask">
-			<image width="500" height="200" xlink:href="images/text-mask.png" />
-		</mask>
-	</defs>
-	<text x="0" y="180">Splatter!</text>
+  <style>
+    text {
+      font-size: 120px;
+      font-weight: bold;
+      mask: url(#mask);
+    }
+  </style>
+  <defs>
+    <mask id="mask">
+      <image width="500" height="200" xlink:href="images/text-mask.png" />
+    </mask>
+  </defs>
+  <text x="0" y="180">Splatter!</text>
 </svg>
 
 </body>
