@@ -1,14 +1,1 @@
-<svg id="flower" width="280" height="340" viewBox="0 0 280 340">
-  <rect id="stem" width="18.4" height="180.86" x="130.8" y="159.1" fill="#479a00"/>
-  <g id="petals" fill="#9e54ff">
-    <ellipse cx="140" cy="58.9" rx="21.7" ry="51.4"/>
-    <ellipse cx="140" cy="215.9" rx="21.7" ry="51.4"/>
-    <ellipse cx="84.5" cy="81.9" rx="21.7" ry="51.4" transform="rotate(-45 84.435 81.926)"/>
-    <ellipse cx="195.5" cy="192.9" rx="21.7" ry="51.4" transform="rotate(-45 195.544 193.003)"/>
-    <ellipse cx="61.5" cy="137.4" rx="51.4" ry="21.7"/>
-    <ellipse cx="218.5" cy="137.4" rx="51.4" ry="21.7"/>
-    <ellipse cx="84.5" cy="192.9" rx="51.4" ry="21.7" transform="rotate(-45 84.537 192.984)"/>
-    <ellipse cx="195.5" cy="81.9" rx="51.4" ry="21.7" transform="rotate(-45 195.443 81.945)"/>
-  </g>
-  <circle id="centre" cx="140" cy="137.8" r="36.4" fill="#f1eb00"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="340" viewBox="0 0 280 340"><path fill="#479a00" d="M130.8 159.1h18.4v180.86h-18.4z"/><g fill="#9e54ff"><ellipse cx="140" cy="58.9" rx="21.7" ry="51.4"/><ellipse cx="140" cy="215.9" rx="21.7" ry="51.4"/><ellipse cx="84.5" cy="81.9" rx="21.7" ry="51.4" transform="rotate(-45 84.435 81.926)"/><ellipse cx="195.5" cy="192.9" rx="21.7" ry="51.4" transform="rotate(-45 195.544 193.003)"/><ellipse cx="61.5" cy="137.4" rx="51.4" ry="21.7"/><ellipse cx="218.5" cy="137.4" rx="51.4" ry="21.7"/><ellipse cx="84.5" cy="192.9" rx="51.4" ry="21.7" transform="rotate(-45 84.537 192.984)"/><ellipse cx="195.5" cy="81.9" rx="51.4" ry="21.7" transform="rotate(-45 195.443 81.945)"/></g><circle cx="140" cy="137.8" r="36.4" fill="#f1eb00"/></svg>
